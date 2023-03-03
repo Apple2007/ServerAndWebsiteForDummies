@@ -1,0 +1,38 @@
+.indexpic1 {
+    height: 150px;
+    width: 150px;
+}
+
+.indexpic2 {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+h1 {
+    text-align: center;
+    color: lightcoral
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.address {
+    height: auto;
+    width: auto;
+}
+
+p {
+    color: limegreen
+}
+
+body {
+    background-color: lavender
+}

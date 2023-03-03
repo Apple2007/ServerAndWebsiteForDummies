@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Setting Up a Server and Website for Dummies: Amazon Web Services: EC2 Setup</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Amazon Web Services: EC2 Setup</h1>
+        <p>
+            Welcome to the Amazon Web Services EC2 Setup tutorial! This will show you how to setup a EC2 instance on Amazon Web Services!
+            There will be pictures to help you along your way. So, without further to do, lets get started!
+        </p>
+        <br>
+        <div class="images">
+            <img src="Pictures/amazon-ec2-1.png">
+            <p>
+                Step 1: Search for "EC2" in the search bar and click the button labeled "EC2"
+            </p>
+            <br>
+            <img src="Pictures/amazon-ec2-2.png">
+            <p>
+                Step 2: Click the button called "Instances"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-3.png">
+            <p>
+                Step 3: Click on "Launch instances (running)"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-4.png">
+            <p>
+                Step 4: Give your instance a name
+            </p>
+            <br>
+            <img src="Pictures/amazon-ec2-5.png">
+            <p>
+                Step 5: Leave everything the same (unless you know how to use another Operating System)
+            </p>
+            <br>
+            <img src="Pictures/amazon-ec2-6.png">
+            <p>
+                Step 6: Leave this the same unless you want to have a faster server. If you do change it, they will charge you for it.
+                Please use the calculator on <a href="https://calculator.aws">calculator.aws</a> for assistance on pricing. If you don't change it,
+                then it will be free for the first 12 months, then you will have to pay. This is not free, folks!
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-7.png">
+            <p>
+                Step 7.1: Click "Create new key pair"
+            </p>
+            <br>
+            <img src="Pictures/amazon-ec2-7-1.png">
+            <p>
+                Step 7.2: Give the key a name, leave everything else alone, and click "Create key pair." Save the key you download in a safe place.
+            </p>
+            <br>
+            <img src="Pictures/amazon-ec2-8.png">
+            <p>
+                Step 8: Leave everything alone in this area
+            </p>
+            <br>
+            <img src="Pictures/amazon-ec2-9.png">
+            <p>
+                Step 9: Change the storage amount to 30 Gigabytes (GB)
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-10.png">
+            <p>
+                Step 10: Click the "Launch instance" button
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-11.png">
+            <p>
+                Step 11: Let it process, then click the "View all instances button"
+            </p>
+            <br>
+            <img src="Pictures/amazon-ec2-12.png">
+            <br>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-13.png">
+            <p>
+                Step 12: From here, you need to scroll down on the left hand side till you see "Security Groups" under "Network and Security"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-14.png">
+            <p>
+                Step 13: Click on the "launch-wizard-1" security group and click on "Inbound rules"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-15.png">
+            <p>
+                Step 14: Scroll down and click on "Edit inbound rules"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-16.png">
+            <p>
+                Step 15: Click on the "Delete" button
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-20.png">
+            <p>
+                Step 16: Click on the "Add rule" button
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-21.png">
+            <p>
+                Step 17: Click on the dropdown and scroll down to select "All traffic"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-22.png">
+            <p>
+                Step 18: Click on the other dropdown and scroll down to select "Anywhere-IPv4"
+            </p>
+            <img class="address" src="Pictures/amazon-ec2-17.png">
+            <p>
+                Step 19: Click on "Save rules"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-18.png">
+            <p>
+                Step 20: Repeat Steps 13 through 19 except click "Outbound rules" and "Edit outbound rules"
+            </p>
+            <br>
+            <img class="address" src="Pictures/amazon-ec2-19.png">
+            <p>
+                Step 21: Scroll up on the left sidebar and click on "Instances" under the "Instances" dropdown
+            </p>
+            <br>
+            <p>
+                You have finished the EC2 setup process on Amazon Web Services! Continue on to the next step to setup a web server and everything you need for a website!
+            </p>
+            <a href="index.html">Home</a> <a href="amazon.html">AWS Account Setup</a> <a href="serversetup.html">Server Setup</a>
+        </div>
+    </body>
+</html>
